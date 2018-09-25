@@ -1,8 +1,12 @@
 @extends('layouts.app')
 
 @section('content')	
-<?php use App\author; ?>
 
+<?php use App\author; ?>
+<div class="mobiles">
+		
+	<div class="container">
+		<div class="w3ls_mobiles_grids">
 			<!--ITEMS-->
 				<div class="col-md-8 w3ls_mobiles_grid_right">
 					
@@ -303,5 +307,12 @@
 	
 				</div>
 			<!--END ITEMS-->
+		</div>
+	</div>
+</div>
+</div>  
+
+
+	
 
 @endsection

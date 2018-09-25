@@ -3,8 +3,7 @@
 
     <body>
 
-	@include('inc.breadindex')
-
+	@include('inc.breadCategory')
 	<!-- mobiles -->
 	<div class="mobiles">
 		
