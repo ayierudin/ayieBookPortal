@@ -4,19 +4,7 @@
 <body>
 
 <!-- breadcrumbs -->
-    <div class="breadcrumb_dress">
-        <div class="container">
-                <ul>
-                        <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a> 
-                        <i> / </i></li>
-                        <li><a href = "/bookCategory"></span>Categories</a>
-                        </li>
-                        
-            
-            
-                </ul>
-        </div>
-    </div>
+@include('inc.breadCategory')
 <!-- //breadcrumbs --> 
 
 <!-- mobiles -->

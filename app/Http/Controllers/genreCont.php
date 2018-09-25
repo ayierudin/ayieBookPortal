@@ -62,8 +62,9 @@ class genreCont extends Controller
         ->select('book_items.*','book_publisher.publisher_name','book_genre.*')
         ->where('book_genre.genre_id',$id)
         ->get();
+        $genre = genre::find($id);
 
-        return view ('books.category') -> with ('books', $books);
+        return view ('books.category') -> with ('books', $books) -> with('genre',$genre);
         
     }
 
